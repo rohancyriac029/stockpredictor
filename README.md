@@ -42,11 +42,28 @@ Follow these steps to get the project up and running on your local machine.
 
 ### 1. Clone the Repository
 
+---
+
+## 🛠️ note
+
+-   We are using pandas_ta for technical indicators this is a depreciated library so there will be a issue of the library not bein recognised even after pip installing it.
+This can be fixed by first finding the location where pandas_ta is installed be using pip show pandas_ta.
+once that is donr go to the location then open the pandas_ta forlder-> click on momentum ->then open squeeze_pro folder.
+Here comment out or delete the line:
+from numpy import NaN as npNaN
+after this code should run fine just change the database to whatever you have.
+the data set ive used is from kaggle.
+You can just change column headers in the code to suit ur database.
+---
+
 ```sh
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
+---sh
 ---
+
+
 
 
 
